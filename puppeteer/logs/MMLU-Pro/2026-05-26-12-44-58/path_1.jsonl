@@ -1,0 +1,62 @@
+[
+    {
+        "agent": "ArxivAgent",
+        "action": {
+            "action": "search_arxiv",
+            "parameter": "corporate governance Combined Code of Practice"
+        },
+        "cost": 4032,
+        "tokens": 252,
+        "model_size": 8,
+        "result": {
+            "step_data": "Request timed out. Please try again later.",
+            "answer": ""
+        },
+        "success": "Failure"
+    },
+    {
+        "agent": "WebsiteAgent",
+        "action": {
+            "action": "access_website",
+            "parameter": "https://www.gov.uk/government/publications/the-combined-code-on-corporate-governance"
+        },
+        "cost": 28928,
+        "tokens": 1808,
+        "model_size": 8,
+        "result": {
+            "step_data": "## Error 404\n\n\n\nCookies on GOV.UK\n-----------------\n\nWe use some essential cookies to make this website work.\n\nWe’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services.\n\nWe also use cookies set by other sites to help us deliver content from their services.\n\nYou have accepted additional cookies. You can [change your cookie settings](/help/cookies) at any time.\n\nYou have rejected additional cookies. You can [change your cookie settings](/help/cookies) at any time.\n\nAccept additional cookies\nReject additional cookies\n[View cookies](/help/cookies)\n\n Hide cookie message\n\n[Skip to main content](#content)\n\n[GOV.UK](https://www.gov.uk) Navigation menu\n---------------\n\n [Menu](/browse)\n\nMenu\n\n### Services and information\n\n* [Benefits](/browse/benefits)\n* [Births, death, marriages and care](/browse/births-deaths-marriages)\n* [Business and self\\-employed](/browse/business)\n* [Childcare and parenting](/browse/childcare-parenting)\n* [Citizenship and living in the UK](/browse/citizenship)\n* [Crime, justice and the law](/browse/justice)\n* [Disabled people](/browse/disabilities)\n* [Driving and transport](/browse/driving)\n* [Education and learning](/browse/education)\n* [Employing people](/browse/employing-people)\n* [Environment and countryside](/browse/environment-countryside)\n* [Housing and local services](/browse/housing-local-services)\n* [Money and tax](/browse/tax)\n* [Passports, travel and living abroad](/browse/abroad)\n* [Visas and immigration](/browse/visas-immigration)\n* [Working, jobs and pensions](/browse/working)\n\n### Government activity\n\n* [Departments](/government/organisations)\nDepartments, agencies and public bodies\n* [News](/search/news-and-communications)\nNews stories, speeches, letters and notices\n* [Guidance and regulation](/search/guidance-and-regulation)\nDetailed guidance, regulations and rules\n* [Research and statistics](/search/research-and-statistics)\nReports, analysis and official statistics\n* [Policy papers and consultations](/search/policy-papers-and-consultations)\nConsultations and strategy\n* [Transparency](/search/transparency-and-freedom-of-information-releases)\nData, Freedom of Information releases and corporate reports\n\n Search GOV.UK\n\n ×\n\n[Search GOV.UK](/search)\n\n### Search\n\nSearch GOV.UK\n\n Search\n\nPage not found\n==============\n\nIf you entered a web address, check it is correct.\n\nYou can [browse from the homepage](/) or use the search box above to find the information you need.\n\n```\nStatus code: 404\n```\n\nIs this page useful?\n--------------------\n\n* [Maybe](/contact/govuk)\n* Yes this page is useful\n* No this page is not useful\n\n Thank you for your feedback\n\n Report a problem with this page\n\nHelp us improve GOV.UK\n----------------------\n\nDo not include personal or financial information like your National Insurance number or credit card details.\n\nThis field is for robots only. Please leave blank\n\nWhat were you doing?\n\nWhat went wrong?\n\nSend\nCancel\n\nHelp us improve GOV.UK\n----------------------\n\n To help us improve GOV.UK, we’d like to know more about your visit today.\n [Please fill in this survey (opens in a new tab and requires JavaScript)](https://www.smartsurvey.co.uk/s/gov-uk-banner/?c=no-js).\n\nCancel\n\nServices and information\n------------------------\n\n* [Benefits](/browse/benefits)\n* [Births, death, marriages and care](/browse/births-deaths-marriages)\n* [Business and self\\-employed](/browse/business)\n* [Childcare and parenting](/browse/childcare-parenting)\n* [Citizenship and living in the UK](/browse/citizenship)\n* [Crime, justice and the law](/browse/justice)\n* [Disabled people](/browse/disabilities)\n* [Driving and transport](/browse/driving)\n* [Education and learning](/browse/education)\n* [Employing people](/browse/employing-people)\n* [Environment and countryside](/browse/environment-countryside)\n* [Housing and local services](/browse/housing-local-services)\n* [Money and tax](/browse/tax)\n* [Passports, travel and living abroad](/browse/abroad)\n* [Visas and immigration](/browse/visas-immigration)\n* [Working, jobs and pensions](/browse/working)\n\nGovernment activity\n-------------------\n\n* [Departments](/government/organisations)\n* [News](/search/news-and-communications)\n* [Guidance and regulation](/search/guidance-and-regulation)\n* [Research and statistics](/search/research-and-statistics)\n* [Policy papers and consultations](/search/policy-papers-and-consultations)\n* [Transparency](/search/transparency-and-freedom-of-information-releases)\n* [How government works](/government/how-government-works)\n* [Get involved](/government/get-involved)\n\n---\n\nSupport links\n-------------\n\n* [Help](/help)\n* [Privacy](/help/privacy-notice)\n* [Cookies](/help/cookies)\n* [Accessibility statement](/help/accessibility-statement)\n* [Contact](/contact)\n* [Terms and conditions](/help/terms-conditions)\n* [Rhestr o Wasanaethau Cymraeg](/cymraeg)\n* [Government Digital Service](/government/organisations/government-digital-service)\n\n All content is avail",
+            "answer": "B"
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "ArxivAgent",
+        "action": {
+            "action": "search_arxiv",
+            "parameter": "corporate governance principles"
+        },
+        "cost": 27424,
+        "tokens": 1714,
+        "model_size": 8,
+        "result": {
+            "step_data": "Request timed out. Please try again later.",
+            "answer": "B"
+        },
+        "success": "Failure"
+    },
+    {
+        "agent": "TerminatorAgent",
+        "action": {
+            "action": "terminate",
+            "parameter": ""
+        },
+        "cost": 0,
+        "tokens": 0,
+        "model_size": 8,
+        "result": {
+            "step_data": null,
+            "answer": null
+        },
+        "success": "Success"
+    }
+]

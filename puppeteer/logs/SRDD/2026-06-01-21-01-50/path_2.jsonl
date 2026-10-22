@@ -1,0 +1,62 @@
+[
+    {
+        "agent": "FileAgent",
+        "action": {
+            "action": "read_file",
+            "parameter": "anomalies.csv"
+        },
+        "cost": 4048,
+        "tokens": 253,
+        "model_size": 8,
+        "result": {
+            "step_data": "File Not Exists",
+            "answer": ""
+        },
+        "success": "Failure"
+    },
+    {
+        "agent": "FileAgent",
+        "action": {
+            "action": "read_file",
+            "parameter": "data_anomalies.csv"
+        },
+        "cost": 6048,
+        "tokens": 378,
+        "model_size": 8,
+        "result": {
+            "step_data": "File Not Exists",
+            "answer": ""
+        },
+        "success": "Failure"
+    },
+    {
+        "agent": "FileAgent",
+        "action": {
+            "action": "read_file",
+            "parameter": "anomaly_data_set.csv"
+        },
+        "cost": 9152,
+        "tokens": 572,
+        "model_size": 8,
+        "result": {
+            "step_data": "File Not Exists",
+            "answer": ""
+        },
+        "success": "Failure"
+    },
+    {
+        "agent": "FileAgent",
+        "action": {
+            "action": "read_file",
+            "parameter": "anomaly_data_set.xlsx"
+        },
+        "cost": 12272,
+        "tokens": 767,
+        "model_size": 8,
+        "result": {
+            "step_data": "File Not Exists",
+            "answer": ""
+        },
+        "success": "Failure"
+    }
+]

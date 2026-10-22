@@ -1,0 +1,62 @@
+[
+    {
+        "agent": "ReflectAgent_llama31_8b",
+        "action": {
+            "action": "reflect",
+            "parameter": ""
+        },
+        "cost": 9104,
+        "tokens": 569,
+        "model_size": 8,
+        "result": {
+            "step_data": "Upon reviewing my previous reasoning attempt, I notice that I failed to accurately identify the correct answer due to a lack of clear understanding of the jurisprudence schools. The previous attempt was: I couldn't find the correct answer from the given options.\n\nDiagnosis: The potential cause of failure is my limited knowledge of the jurisprudence schools and their associated principles. I may have misinterpreted or not fully understood the characteristics of each school, leading to an incorrect answer.\n\nNew plan: To prevent the same issue from recurring, I will take a more systematic approach to understanding the jurisprudence schools. I will review the key principles and characteristics of each school, focusing on the concept of \"correct\" in relation to the law. This will involve:\n\n1. Reviewing the definitions and key features of each jurisprudence school.\n2. Analyzing the concept of \"correct\" in the context of each school.\n3. Eliminating options that do not align with the concept of \"correct\" in the context of jurisprudence.\n\nREASONING RESULT: Improved understanding of jurisprudence schools and their associated principles will lead to a more accurate answer.\n\nFINAL ANSWER: J: Natural Law.",
+            "answer": " J: Natural Law."
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "PythonAgent_llama31_8b",
+        "action": {
+            "action": "run_python",
+            "parameter": "print('The correct answer is I: Positivist.')"
+        },
+        "cost": 8368,
+        "tokens": 523,
+        "model_size": 8,
+        "result": {
+            "step_data": "  File \"/home/rhkim/ChatDev/puppeteer/logs/MMLU-Pro/2026-05-26-07-35-13/agent-main.py\", line 1\n    Sure! Here is the updated code with a 'print' statement added:\n        ^\nSyntaxError: invalid syntax\n",
+            "answer": " J: Natural Law."
+        },
+        "success": "Failure"
+    },
+    {
+        "agent": "ArxivAgent",
+        "action": {
+            "action": "search_arxiv",
+            "parameter": "Legal Formalism jurisprudence"
+        },
+        "cost": 26256,
+        "tokens": 1641,
+        "model_size": 8,
+        "result": {
+            "step_data": "[{'title': 'PersonaMatrix: A Recipe for Persona-Aware Evaluation of Legal Summarization', 'authors': 'Tsz Fung Pang, Maryam Berijanian, Thomas Orth, Breanna Shi, Charlotte S. Alexander', 'summary': 'Legal documents are often long, dense, and difficult to comprehend, not only for laypeople but also for legal experts. While automated document summarization has great potential to improve access to legal knowledge, prevailing task-based evaluators overlook divergent user and stakeholder needs. Tool development is needed to encompass the technicality of a case summary for a litigator yet be accessible for a self-help public researching for their lawsuit. We introduce PersonaMatrix, a persona-by-criterion evaluation framework that scores summaries through the lens of six personas, including legal and non-legal users. We also introduce a controlled dimension-shifted pilot dataset of U.S. civil rights case summaries that varies along depth, accessibility, and procedural detail as well as Diversity-Coverage Index (DCI) to expose divergent optima of legal summary between persona-aware and persona-agnostic judges. This work enables refinement of legal AI summarization systems for both expert and non-expert users, with the potential to increase access to legal knowledge. The code base and data are publicly available in GitHub.', 'pdf_url': 'https://arxiv.org/pdf/2509.16449v2'}, {'title': 'Enhancing Pre-Trained Language Models with Sentence Position Embeddings for Rhetorical Roles Recognition in Legal Opinions', 'authors': 'Anas Belfathi, Nicolas Hernandez, Laura Monceaux', 'summary': 'The legal domain is a vast and complex field that involves a considerable amount of text analysis, including laws, legal arguments, and legal opinions. Legal practitioners must analyze these texts to understand legal cases, research legal precedents, and prepare legal documents. The size of legal opinions continues to grow, making it increasingly challenging to develop a model that can accurately predict the rhetorical roles of legal opinions given their complexity and diversity. In this research paper, we propose a novel model architecture for automatically predicting rhetorical roles using pre-trained language models (PLMs) enhanced with knowledge of sentence position information within a document. Based on an annotated corpus from the LegalEval@SemEval2023 competition, we demonstrate that our approach requires fewer parameters, resulting in lower computational costs when compared to complex architectures employing a hierarchical model in a global-context, yet it achieves great performance. Moreover, we show that adding more attention to a hierarchical model based only on BERT in the local-context, along with incorporating sentence position information, enhances the results.', 'pdf_url': 'https://arxiv.org/pdf/2310.05276v1'}, {'title': 'Segmentation and Processing of German Court Decisions from Open Legal Data', 'authors': 'Harshil Darji, Martin Heckelmann, Christina Kratsch, Gerard de Melo', 'summary': \"The availability of structured legal data is important for advancing Natural Language Processing (NLP) techniques for the German legal system. One of the most widely used datasets, Open Legal Data, provides a large-scale collection of German court decisions. While the metadata in this raw dataset is consistently structured, the decision texts themselves are inconsistently formatted and often lack clearly marked sections. Reliable separation of these sections is important not only for rhetorical role classification but also for downstream tasks such as retrieval and citation analysis. In this work, we introduce a cleaned and sectioned dataset of 251,038 German court decisions derived from the official Open Legal Data dataset. We systematically separated three important sections in German court decisions, namely Tenor (operative part of the decision), Tatbestand (facts of the case), and Entscheidungsgründe (judicial reasoning), which are often inconsistently represented in the original dataset. To ensure the reliability of our extraction process, we used Cochran's formula with a 95% confidence level and a 5% margin of error to draw a statistically representative random sample of 384 cases, and manually verified that all three sections were correctly identified. We also extracted the Rechtsmittelbelehrung (appeal notice) as a separate field, since it is a procedural instruction and not part of the decision itself. The resulting corpus is publicly available in the JSONL format, making it an accessible resource for further research on the German legal system.\", 'pdf_url': 'https://arxiv.org/pdf/2601.01449v1'}, {'title': 'Evault for legal records', 'authors': 'Jeba N, Anas S, Anuragav S, Abhishek R, Sachin K', 'summary': \"Innovative solution for addressing the challenges in the legal records management system through a blockchain-based eVault platform. Our objective is to create a secure, transparent, and accessible ecosystem that caters to t",
+            "answer": "J"
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "TerminatorAgent",
+        "action": {
+            "action": "terminate",
+            "parameter": ""
+        },
+        "cost": 0,
+        "tokens": 0,
+        "model_size": 8,
+        "result": {
+            "step_data": null,
+            "answer": null
+        },
+        "success": "Success"
+    }
+]

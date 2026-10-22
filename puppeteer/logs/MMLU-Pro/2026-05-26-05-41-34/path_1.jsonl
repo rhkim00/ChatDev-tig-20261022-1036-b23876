@@ -1,0 +1,62 @@
+[
+    {
+        "agent": "ArxivAgent",
+        "action": {
+            "action": "search_arxiv",
+            "parameter": "protein structure mutations substrate specificity"
+        },
+        "cost": 30608,
+        "tokens": 1913,
+        "model_size": 8,
+        "result": {
+            "step_data": "[{'title': 'AlphaFold predicts the most complex protein knot and composite protein knots', 'authors': 'Maarten A. Brems, Robert Runkel, Todd O. Yeates, Peter Virnau', 'summary': 'The computer artificial intelligence system AlphaFold has recently predicted previously unknown three-dimensional structures of thousands of proteins. Focusing on the subset with high-confidence scores, we algorithmically analyze these predictions for cases where the protein backbone exhibits rare topological complexity, i.e. knotting. Amongst others, we discovered a $7_1$-knot, the most topologically complex knot ever found in a protein, as well several 6-crossing composite knots comprised of two methyltransferase or carbonic anhydrase domains, each containing a simple trefoil knot. These deeply embedded composite knots occur evidently by gene duplication and interconnection of knotted dimers. Finally, we report two new five-crossing knots including the first $5_1$-knot. Our list of analyzed structures forms the basis for future experimental studies to confirm these novel knotted topologies and to explore their complex folding mechanisms.', 'pdf_url': 'https://arxiv.org/pdf/2207.07410v1'}, {'title': 'A Novel Approach for Protein Structure Prediction', 'authors': 'Saurabh Sarkar, Prateek Malhotra, Virender Guman', 'summary': 'The idea of this project is to study the protein structure and sequence relationship using the hidden markov model and artificial neural network. In this context we have assumed two hidden markov models. In first model we have taken protein secondary structures as hidden and protein sequences as observed. In second model we have taken protein sequences as hidden and protein structures as observed. The efficiencies for both the hidden markov models have been calculated. The results show that the efficiencies of first model is greater that the second one .These efficiencies are cross validated using artificial neural network. This signifies the importance of protein secondary structures as the main hidden controlling factors due to which we observe a particular amino acid sequence. This also signifies that protein secondary structure is more conserved in comparison to amino acid sequence.', 'pdf_url': 'https://arxiv.org/pdf/1206.3509v1'}, {'title': 'Mass Balance Approximation of Unfolding Improves Potential-Like Methods for Protein Stability Predictions', 'authors': 'Ivan Rossi, Guido Barducci, Tiziana Sanavia, Paola Turina, Emidio Capriotti, Piero Fariselli', 'summary': 'The prediction of protein stability changes following single-point mutations plays a pivotal role in computational biology, particularly in areas like drug discovery, enzyme reengineering, and genetic disease analysis. Although deep-learning strategies have pushed the field forward, their use in standard workflows remains limited due to resource demands. Conversely, potential-like methods are fast, intuitive, and efficient. Yet, these typically estimate Gibbs free energy shifts without considering the free-energy variations in the unfolded protein state, an omission that may breach mass balance and diminish accuracy. This study shows that incorporating a mass-balance correction (MBC) to account for the unfolded state significantly enhances these methods. While many machine learning models partially model this balance, our analysis suggests that a refined representation of the unfolded state may improve the predictive performance.', 'pdf_url': 'https://arxiv.org/pdf/2504.06806v1'}, {'title': 'New class of compounds - variators - are reprogramming substrate specificity of H4K12Ac, H4K16Ac and H4K20Ac epigenetic marks reading bromodomain of BPTF protein', 'authors': 'Oleksandr Ya Yakovenko, Sreeja Leelakumari, Ganna Vashchenko, Albert Badiong, Steven J. M. Jones', 'summary': 'Previously reported [http://arxiv.org/abs/1506.06433] reprogramming of substrate specificity of H3K4Me3 epigenetic marks reading PHD domain of BPTF protein illustrates therapeutic potential of a new class of non-inhibitor small organic compounds - variators. Here we address the question about reproducibility of rational design of variators by reprogramming of the second epigenetic marks reading domain of BPTF protein - bromodomain. Bromodomain of BPTF binds to epigenetic marks in form of acetylated lysine of histone H4 (H4K12Ac, H4K16Ac and H4K20Ac), which physicochemical properties and binding mode differs considerably from those of methylated H3K4 marks. Thus, detailed description of computational approach for reprogramming of bromodomain substrate specificity illustrates both general and target specific attributes of computer aided variators design.', 'pdf_url': 'https://arxiv.org/pdf/1506.06845v1'}, {'title': 'New Approach for Prediction Pre-cancer via Detecting Mutated in Tumor Protein P53', 'authors': 'Ayad Ghany Ismaeel', 'summary': \"Tumor protein P53 is believed to be involved in over half of human cancers cases, the prediction of malignancies plays essential roles no",
+            "answer": "D"
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "ConcluderAgent_llama31_8b",
+        "action": {
+            "action": "conclude",
+            "parameter": ""
+        },
+        "cost": 32336,
+        "tokens": 2021,
+        "model_size": 8,
+        "result": {
+            "step_data": "To conclude the task, let's analyze the given information and the multiple-choice questions about biology.\n\nThe question is about how a mutation in a bacterial enzyme, changing a previously polar amino acid into a nonpolar amino acid located away from the enzyme's active site, might alter the enzyme's substrate specificity.\n\nFrom the provided information, we can see that there are several papers related to protein structure prediction, protein stability predictions, and reprogramming of substrate specificity of epigenetic marks reading domains. However, none of these papers directly address the question of how a mutation in a bacterial enzyme, changing a previously polar amino acid into a nonpolar amino acid located away from the enzyme's active site, might alter the enzyme's substrate specificity.\n\nHowever, we can use general knowledge about protein structure and function to answer this question. The location of an amino acid in a protein can affect its function, but it is not the only factor. The shape and properties of the amino acid itself can also affect the protein's function.\n\nConsidering the options provided:\n\nA: By changing the enzyme’s pH optimum - This is unlikely, as the mutation is located away from the active site.\n\nB: By changing the enzyme's molecular weight - This is unlikely, as the mutation is located away from the active site.\n\nC: An amino acid change away from the active site increases the enzyme's substrate specificity - This is incorrect, as an amino acid change can affect the protein's function, but it is not necessarily related to substrate specificity.\n\nD: By changing the shape of the protein - This is a possible answer, as the mutation can affect the protein's shape and, consequently, its function.\n\nE: By changing the enzyme's temperature optimum - This is unlikely, as the mutation is located away from the active site.\n\nF: By altering the enzyme's ability to be denatured - This is unlikely, as the mutation is located away from the active site.\n\nG: By changing the enzyme’s location in the cell - This is unlikely, as the mutation is located away from the active site.\n\nH: By changing the enzyme's color - This is unlikely, as the mutation is located away from the active site.\n\nI: An amino acid change away from the active site cannot alter the enzyme’s substrate specificity - This is incorrect, as an amino acid change can affect the protein's function.\n\nJ: By altering the enzyme's rate of reaction - This is a possible answer, as the mutation can affect the protein's function and, consequently, its rate of reaction.\n\nBased on the analysis, the most likely correct answer is:\n\nD: By changing the shape of the protein\n\nREASONING RESULT: The mutation can affect the protein's shape and, consequently, its function, including its substrate specificity.\n\nFINAL ANSWER: D.",
+            "answer": " D."
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "PythonAgent_llama31_8b",
+        "action": {
+            "action": "run_python",
+            "parameter": "The mutation can alter the enzyme's substrate specificity by changing the shape of the protein."
+        },
+        "cost": 22416,
+        "tokens": 1401,
+        "model_size": 8,
+        "result": {
+            "step_data": "The mutation can alter the enzyme's substrate specificity by changing the shape of the protein.\n",
+            "answer": "D"
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "SummarizerAgent_llama31_8b",
+        "action": {
+            "action": "summarize",
+            "parameter": ""
+        },
+        "cost": 36080,
+        "tokens": 2255,
+        "model_size": 8,
+        "result": {
+            "step_data": "To summarize the previous results, I analyzed the given information and multiple-choice questions about biology to determine how a mutation in a bacterial enzyme, changing a previously polar amino acid into a nonpolar amino acid located away from the enzyme's active site, might alter the enzyme's substrate specificity.\n\nThe reasoning paths can be summarized as follows:\n\n1. Eliminated options that are unlikely to be affected by a mutation in a non-active site amino acid, such as pH optimum (A), molecular weight (B), temperature optimum (E), ability to be denatured (F), location in the cell (G), color (H), and rate of reaction (J).\n2. Recognized that a mutation in a non-active site amino acid can still affect the enzyme's substrate specificity, even if it is not directly involved in the active site.\n3. Identified that the correct answer is related to the shape of the protein, as a mutation in a non-active site amino acid can still affect the overall shape of the protein.\n4. Considered the properties of the amino acid itself and how it can affect the protein's function, including its substrate specificity.\n\nBased on these reasoning paths, the correct answer is:\n\nREASONING RESULT:\n1. Options A, B, E, F, G, H, and J were incorrect because they are unlikely to be affected by a mutation in a non-active site amino acid.\n2. A mutation in a non-active site amino acid can still affect the enzyme's substrate specificity by changing the shape of the protein.\n3. The shape of the protein is a critical factor in determining its function, including its substrate specificity.\n\nFINAL ANSWER: D. By changing the shape of the protein.",
+            "answer": " D. By changing the shape of the protein."
+        },
+        "success": "Success"
+    }
+]

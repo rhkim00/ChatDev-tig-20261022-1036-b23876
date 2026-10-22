@@ -1,0 +1,62 @@
+[
+    {
+        "agent": "ArxivAgent",
+        "action": {
+            "action": "search_arxiv",
+            "parameter": "cultural experiences and virtual reality"
+        },
+        "cost": 4640,
+        "tokens": 290,
+        "model_size": 8,
+        "result": {
+            "step_data": "Request timed out. Please try again later.",
+            "answer": ""
+        },
+        "success": "Failure"
+    },
+    {
+        "agent": "QuestionAgent_llama31_8b",
+        "action": {
+            "action": "question",
+            "parameter": ""
+        },
+        "cost": 44880,
+        "tokens": 2805,
+        "model_size": 8,
+        "result": {
+            "step_data": "('",
+            "answer": ""
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "ArxivAgent",
+        "action": {
+            "action": "search_arxiv",
+            "parameter": "cultural heritage and virtual reality"
+        },
+        "cost": 9408,
+        "tokens": 588,
+        "model_size": 8,
+        "result": {
+            "step_data": "Request timed out. Please try again later.",
+            "answer": ""
+        },
+        "success": "Failure"
+    },
+    {
+        "agent": "ArxivAgent",
+        "action": {
+            "action": "search_arxiv",
+            "parameter": "immersive cultural experiences"
+        },
+        "cost": 14192,
+        "tokens": 887,
+        "model_size": 8,
+        "result": {
+            "step_data": "Request timed out. Please try again later.",
+            "answer": ""
+        },
+        "success": "Failure"
+    }
+]

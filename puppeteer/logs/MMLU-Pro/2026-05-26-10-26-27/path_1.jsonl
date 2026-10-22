@@ -1,0 +1,32 @@
+[
+    {
+        "agent": "WebsiteAgent",
+        "action": {
+            "action": "access_website",
+            "parameter": "https://www.investopedia.com"
+        },
+        "cost": 10256,
+        "tokens": 641,
+        "model_size": 8,
+        "result": {
+            "step_data": "## Error 460\n\nAUDAB - Not Allowed",
+            "answer": "E"
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "TerminatorAgent",
+        "action": {
+            "action": "terminate",
+            "parameter": ""
+        },
+        "cost": 0,
+        "tokens": 0,
+        "model_size": 8,
+        "result": {
+            "step_data": null,
+            "answer": null
+        },
+        "success": "Success"
+    }
+]

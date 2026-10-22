@@ -1,0 +1,62 @@
+[
+    {
+        "agent": "FileAgent",
+        "action": {
+            "action": "read_file",
+            "parameter": "biology_questions.txt"
+        },
+        "cost": 4592,
+        "tokens": 287,
+        "model_size": 8,
+        "result": {
+            "step_data": "File Not Exists",
+            "answer": ""
+        },
+        "success": "Failure"
+    },
+    {
+        "agent": "ArxivAgent",
+        "action": {
+            "action": "search_arxiv",
+            "parameter": "recessive allele frequency Hardy-Weinberg equilibrium"
+        },
+        "cost": 71248,
+        "tokens": 4453,
+        "model_size": 8,
+        "result": {
+            "step_data": "[{'title': 'New Equivalence Tests for Hardy-Weinberg Equilibrium and Multiple Alleles', 'authors': 'Vladimir Ostrovski', 'summary': 'We consider testing equivalence to Hardy-Weinberg Equilibrium in case of multiple alleles. Two different test statistics are proposed for this test problem. The asymptotic distribution of the test statistics is derived. The corresponding tests can be carried out using asymptotic approximation. Alternatively, the variance of the test statistics can be estimated by the bootstrap method. The proposed tests are applied to three real data sets. The finite sample performance of the tests is studied by simulations, which are inspired by the real data sets.', 'pdf_url': 'https://arxiv.org/pdf/2507.10077v1'}, {'title': 'Selective sweeps for recessive alleles and for other modes of dominance', 'authors': 'Greg Ewing, Joachim Hermisson, Peter Pfaffelhuber, Johannes Rudolf', 'summary': 'A selective sweep describes the reduction of linked genetic variation due to strong positive selection. If s is the fitness advantage of a homozygote for the beneficial allele and h its dominance coefficient, it is usually assumed that h=1/2, i.e. the beneficial allele is co-dominant. We complement existing theory for selective sweeps by assuming that h is any value in [0,1]. We show that genetic diversity patters under selective sweeps with strength s and dominance 0<h<1 are similar to co-dominant sweeps with selection strength 2hs. Moreover, we focus on the case h=0 of a completely recessive beneficial allele. We find that the length of the sweep, i.e. the time from occurrence until fixation of the beneficial allele, is of the order of sqrt(N/s) generations, if N is the population size. Simulations as well as our results show that genetic diversity patterns in the recessive case h=0 greatly differ from all other cases.', 'pdf_url': 'https://arxiv.org/pdf/1005.5536v2'}, {'title': 'A General Statistical Framework for Hardy-Weinberg Equilibrium Inference on the X Chromosome', 'authors': 'Lin Zhang, Andrew Paterson, Lei Sun', 'summary': 'Testing for Hardy-Weinberg equilibrium (HWE) is a fundamental component of genetic data analysis, widely used for quality control and model validation. Although HWE testing is well established for autosomal loci, inference on the X chromosome is more complex due to sex-specific genotype structures and potential sex differences in minor allele frequency (sdMAF). Existing tests differ in their assumptions about sdMAF and male sample inclusion, often leading to distinct but poorly characterized null hypotheses.\\n  We develop a general statistical framework for HWE inference using the robust allele-based regression model. By formulating HWE testing as an assessment of allele-level dependence, the framework directly parameterizes Hardy-Weinberg disequilibrium, unifies existing Pearson chi-square-based tests under explicit modeling assumptions, and clarifies their null hypotheses, degrees of freedom, and sensitivity to sdMAF. The framework also accommodates covariate and population-structure adjustment within a unified regression-based formulation.\\n  The proposed framework provides robust, interpretable, and flexible inference, establishing a unified statistical foundation for HWE testing across autosomal and X-chromosomal regions. Simulation studies and analysis of high-coverage 1000 Genomes Project data demonstrate that commonly used X-chromosome tests can exhibit inflated type I error or misleading inference when sdMAF is present.', 'pdf_url': 'https://arxiv.org/pdf/2605.19370v1'}, {'title': 'Survival of a recessive allele in a Mendelian diploid model', 'authors': 'Anton Bovier, Rebecca Neukirch', 'summary': 'In this paper we analyse the genetic evolution of a diploid hermaphroditic population, which is modelled by a three-type nonlinear birth-and-death process with competition and Mendelian reproduction. In a recent paper, Collet et al., 2013 have shown that, on the mutation time-scale, the process converges to the Trait-Substitution Sequence of adaptive dynamics, stepping from one homozygotic state to another with higher fitness. We prove that, under the assumption that a dominant allele is also the fittest one, the recessive allele survives for a time of order at least K^{1/4-a}, where K is the size of the population and a>0.', 'pdf_url': 'https://arxiv.org/pdf/1505.02109v4'}, {'title': 'Change in Recessive Lethal Alleles Frequency in Inbred Populations', 'authors': 'Arindam RoyChoudhury', 'summary': 'In a population practicing consanguineous marriage, rare recessive lethal alleles (RRLA) have higher chances of affecting phenotypes. As inbreeding causes more homozygosity and subsequently more deaths, the loss of individuals with RRLA decreases the frequency of these alleles. Although this phenomenon is well studied in general, here some hitherto unstudied cases are presented. An analytical formula for the RRLA frequency is presented for infinite monoecious population practi",
+            "answer": "D"
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "FileAgent",
+        "action": {
+            "action": "read_file",
+            "parameter": "biology_questions.txt"
+        },
+        "cost": 4848,
+        "tokens": 303,
+        "model_size": 8,
+        "result": {
+            "step_data": "File Not Exists",
+            "answer": "D"
+        },
+        "success": "Failure"
+    },
+    {
+        "agent": "FileAgent",
+        "action": {
+            "action": "read_file",
+            "parameter": "knowledge.json"
+        },
+        "cost": 9120,
+        "tokens": 570,
+        "model_size": 8,
+        "result": {
+            "step_data": "File Not Exists",
+            "answer": "D"
+        },
+        "success": "Failure"
+    }
+]

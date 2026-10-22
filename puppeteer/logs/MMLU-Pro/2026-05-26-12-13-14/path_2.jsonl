@@ -1,0 +1,47 @@
+[
+    {
+        "agent": "WebsiteAgent",
+        "action": {
+            "action": "access_website",
+            "parameter": "https://www.mathway.com/"
+        },
+        "cost": 17248,
+        "tokens": 1078,
+        "model_size": 8,
+        "result": {
+            "step_data": "\n\nMathway\nVisit Mathway on the web\nStart 7\\-day free trial on the app\nStart 7\\-day free trial on the app\nDownload free on Amazon\nDownload free in Windows Store\nTake a photo of your math problem on the app\n\nget\nGo\n\nAlgebra\n\n[Basic Math](/BasicMath)\n[Pre\\-Algebra](/PreAlgebra)\n[Algebra](/Algebra)\n[Trigonometry](/Trigonometry)\n[Precalculus](/Precalculus)\n[Calculus](/Calculus)\n[Statistics](/Statistics)\n[Finite Math](/FiniteMath)\n[Linear Algebra](/LinearAlgebra)\n[Chemistry](/Chemistry)\n[Physics](/Physics)\n[Graphing](/Graph)\n\n[Upgrade](#upgrade)\n[Calculators](/calculators )\n[Examples](#examples)\n[About](/about)\n[Help](https://www.chegg.com/contactus/mathwaysupport)\n\n[Your Privacy Choices](https://privacyportal.onetrust.com/webform/a21a74f4-2f93-44a2-a887-302a9213c997/06b040b7-49eb-464a-b19a-ea35c85c79fc)\n\n[Sign In](#signin)\n[Sign Up](#signup)\n\nNew Messages\nUser is Typing\n\n|  |\n| --- |\n\n using Amazon.Auth.AccessControlPolicy;\n\n Mathway requires javascript and a modern browser.\n\nPlease ensure that your password is at least 8 characters and contains each of the following:\n\n* a number\n* a letter\n* a special character: @$\\#!%\\*?\\&\n\n",
+            "answer": "A"
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "FileAgent",
+        "action": {
+            "action": "read_file",
+            "parameter": "business_data.txt"
+        },
+        "cost": 5392,
+        "tokens": 337,
+        "model_size": 8,
+        "result": {
+            "step_data": "File Not Exists",
+            "answer": "A"
+        },
+        "success": "Failure"
+    },
+    {
+        "agent": "TerminatorAgent",
+        "action": {
+            "action": "terminate",
+            "parameter": ""
+        },
+        "cost": 0,
+        "tokens": 0,
+        "model_size": 8,
+        "result": {
+            "step_data": null,
+            "answer": null
+        },
+        "success": "Success"
+    }
+]

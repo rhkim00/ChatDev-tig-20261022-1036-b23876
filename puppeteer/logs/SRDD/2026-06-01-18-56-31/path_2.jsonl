@@ -1,0 +1,62 @@
+[
+    {
+        "agent": "FileAgent",
+        "action": {
+            "action": "read_file",
+            "parameter": "phrasebook_data.json"
+        },
+        "cost": 4992,
+        "tokens": 312,
+        "model_size": 8,
+        "result": {
+            "step_data": "File Not Exists",
+            "answer": ""
+        },
+        "success": "Failure"
+    },
+    {
+        "agent": "FileAgent",
+        "action": {
+            "action": "read_file",
+            "parameter": "language_phrases.json"
+        },
+        "cost": 6144,
+        "tokens": 384,
+        "model_size": 8,
+        "result": {
+            "step_data": "File Not Exists",
+            "answer": ""
+        },
+        "success": "Failure"
+    },
+    {
+        "agent": "FileAgent",
+        "action": {
+            "action": "read_file",
+            "parameter": "audio_pronunciations.json"
+        },
+        "cost": 9232,
+        "tokens": 577,
+        "model_size": 8,
+        "result": {
+            "step_data": "File Not Exists",
+            "answer": ""
+        },
+        "success": "Failure"
+    },
+    {
+        "agent": "FileAgent",
+        "action": {
+            "action": "read_file",
+            "parameter": "quizzes_and_exercises.json"
+        },
+        "cost": 12320,
+        "tokens": 770,
+        "model_size": 8,
+        "result": {
+            "step_data": "File Not Exists",
+            "answer": ""
+        },
+        "success": "Failure"
+    }
+]

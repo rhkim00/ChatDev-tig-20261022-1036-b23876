@@ -1,0 +1,62 @@
+[
+    {
+        "agent": "Modifier_llama31_8b",
+        "action": {
+            "action": "modify",
+            "parameter": ""
+        },
+        "cost": 9328,
+        "tokens": 583,
+        "model_size": 8,
+        "result": {
+            "step_data": "Since I didn't have any previous reasoning to work with, I'll start from scratch.\n\nTo calculate the property taxes Mr. Williams pays, we need to multiply the assessed value of the property by the tax rate.\n\nAssessed value of the property = $7,800\nTax rate = $2.80 per $100\n\nFirst, we need to find out how many $100 units are in the assessed value of the property. We can do this by dividing the assessed value by 100.\n\n$7,800 ÷ 100 = 78\n\nNow, we multiply the number of $100 units by the tax rate.\n\n78 × $2.80 = $218.40\n\nSo, Mr. Williams pays $218.40 in property taxes.\n\nREASONING RESULT:\n1. Which part of the previous reasoning was incorrect: None (since there was no previous reasoning).\n2. Why it was incorrect: N/A\n3. What is the correct understanding: To calculate property taxes, we need to multiply the assessed value of the property by the tax rate, and then divide the result by 100 to find the number of $100 units, and then multiply that by the tax rate.\n\nFINAL ANSWER: $218.40",
+            "answer": " $218.40"
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "ArxivAgent",
+        "action": {
+            "action": "search_arxiv",
+            "parameter": "property tax assessment"
+        },
+        "cost": 26656,
+        "tokens": 1666,
+        "model_size": 8,
+        "result": {
+            "step_data": "[{'title': 'Taxpayer deductions and the endogenous probability of tax penalisation', 'authors': 'Alex A. T. Rathke', 'summary': 'We propose a parametric specification of the probability of tax penalisation faced by a taxpayer, based on the amount of deduction chosen by her to reduce total taxation. Comparative analyses lead to a closed-form solution for the optimum tax deduction, and provide the maximising conditions with respect to the probability parameters.', 'pdf_url': 'https://arxiv.org/pdf/2202.13695v1'}, {'title': 'Technical Challenges in Maintaining Tax Prep Software with Large Language Models', 'authors': 'Sina Gogani-Khiabani, Varsha Dewangan, Nina Olson, Ashutosh Trivedi, Saeid Tizpaz-Niari', 'summary': 'As the US tax law evolves to adapt to ever-changing politico-economic realities, tax preparation software plays a significant role in helping taxpayers navigate these complexities. The dynamic nature of tax regulations poses a significant challenge to accurately and timely maintaining tax software artifacts. The state-of-the-art in maintaining tax prep software is time-consuming and error-prone as it involves manual code analysis combined with an expert interpretation of tax law amendments. We posit that the rigor and formality of tax amendment language, as expressed in IRS publications, makes it amenable to automatic translation to executable specifications (code). Our research efforts focus on identifying, understanding, and tackling technical challenges in leveraging Large Language Models (LLMs), such as ChatGPT and Llama, to faithfully extract code differentials from IRS publications and automatically integrate them with the prior version of the code to automate tax prep software maintenance.', 'pdf_url': 'https://arxiv.org/pdf/2504.18693v1'}, {'title': 'CAGI, the Critical Assessment of Genome Interpretation, establishes progress and prospects for computational genetic variant interpretation methods', 'authors': 'The Critical Assessment of Genome Interpretation Consortium', 'summary': 'The Critical Assessment of Genome Interpretation (CAGI) aims to advance the state of the art for computational prediction of genetic variant impact, particularly those relevant to disease. The five complete editions of the CAGI community experiment comprised 50 challenges, in which participants made blind predictions of phenotypes from genetic data, and these were evaluated by independent assessors. Overall, results show that while current methods are imperfect, they have major utility for research and clinical applications. Missense variant interpretation methods are able to estimate biochemical effects with increasing accuracy. Performance is particularly strong for clinical pathogenic variants, including some difficult-to-diagnose cases, and extends to interpretation of cancer-related variants. Assessment of methods for regulatory variants and complex trait disease risk is less definitive, and indicates performance potentially suitable for auxiliary use in the clinic. Emerging methods and increasingly large, robust datasets for training and assessment promise further progress ahead.', 'pdf_url': 'https://arxiv.org/pdf/2205.05897v1'}, {'title': 'Tradeoffs are Domain Dependent: Improving Accuracy and Fairness in Property Tax Assessments', 'authors': 'Evelyn Smith, Emma Harvey, Christopher Berry, Jacob Goldin, Daniel E. Ho', 'summary': 'Algorithmic fairness research often assumes a tradeoff between fairness and accuracy. Yet this tradeoff may not be universal. We test this assumption in the context of U.S. property tax assessment - a setting in which the output of predictive algorithms directly determines the distribution of tax obligations among homeowners. Currently, systematic assessment errors cause owners of lower-valued properties to face disproportionately high tax burdens, creating regressivity in the property tax system. Using data on 26 million property sales spanning 95% of U.S. counties, we conduct three complementary analyses. First, we find that assessment accuracy and fairness - measured using domain-relevant metrics - are strongly correlated across counties under status quo practices. Second, in simulated assessment models, we show that adding property features improves accuracy in most cases, and that when accuracy improves, fairness almost always improves as well. Third, we show that incorporating publicly available Census data into assessment models - a feasible reform in most counties - would significantly improve both accuracy and fairness relative to status quo assessments. Together, these results challenge the presumed universality of the fairness-accuracy tradeoff and demonstrate that well-designed modeling improvements can advance both fairness and accuracy in large-scale public sector systems.', 'pdf_url': 'https://arxiv.org/pdf/2605.15020v1'}, {'title': 'The Possible Effects of Personal Income Tax and Value Added Tax on Consumer Behaviors', 'authors': 'Ahmet Ak, Oner Gumus', 'summary'",
+            "answer": "D"
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "QuestionAgent_llama31_8b",
+        "action": {
+            "action": "question",
+            "parameter": ""
+        },
+        "cost": 29584,
+        "tokens": 1849,
+        "model_size": 8,
+        "result": {
+            "step_data": "Given that we have calculated the property taxes Mr. Williams pays as $218.40, the next sub-question could be:\n\nWhat would happen to Mr. Williams' property taxes if the tax rate were to increase by $0.20 per $100?\n\nTo answer this sub-question, we need to recalculate the property taxes using the new tax rate.\n\nNew tax rate = $2.80 + $0.20 = $3.00 per $100\n\nWe can use the same method as before to calculate the property taxes:\n\nAssessed value of the property = $7,800\nTax rate = $3.00 per $100\n\nFirst, we need to find out how many $100 units are in the assessed value of the property. We can do this by dividing the assessed value by 100.\n\n$7,800 ÷ 100 = 78\n\nNow, we multiply the number of $100 units by the new tax rate.\n\n78 × $3.00 = $234.00\n\nSo, if the tax rate were to increase by $0.20 per $100, Mr. Williams would pay $234.00 in property taxes.\n\nREASONING RESULT:\n1. The previous reasoning was correct.\n2. The new tax rate is $3.00 per $100.\n3. The correct understanding is that if the tax rate increases, the property taxes will also increase.\n\nFINAL ANSWER: $234.00",
+            "answer": " $234.00"
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "BingAgent",
+        "action": {
+            "action": "search_bing",
+            "parameter": "property tax calculation formula"
+        },
+        "cost": 72176,
+        "tokens": 4511,
+        "model_size": 8,
+        "result": {
+            "step_data": "A web search for 'property tax calculation formula' found 10 results:\n\n## Web Results\n1. [How are my taxes calculated?](https://www.cookcountyassessoril.gov/faq/how-are-my-taxes-calculated)\nHe determines only a \"Market Value\" (MV) for your property and, for taxation, uses 10% of its value as the \"Assessed Valuation\" (AV). The State Equalization ...\n\n2. [Illinois Property Tax Calculator](https://smartasset.com/taxes/illinois-property-tax-calculator)\nIn our calculator, we take your home value and multiply that by your county's effective property tax rate. This is equal to the median property tax paid as a ...\n\n3. [How to calculate property tax: A step-by-step guide for ...](https://www.avalara.com/blog/en/north-america/2024/12/how-to-calculate-property-tax.html)\nSteps to calculate property tax for new property tax managers · Step 1: Determine the assessed value · Step 2: Apply the assessment ratio · Step ...\n\n4. [How to Estimate Your Property Taxes](https://sangamonil.gov/departments/s-z/treasurer/how-to-estimate-your-property-taxes)\nTaxable Value times Tax Rate per $100 of Value equals Tax Amount (EAV *Rate/100)=Tax. Example Calculation. The tax amount for a property with a $100,000 fair ...\n\n5. [Property Tax Calculator](https://www.zillow.com/mortgage-calculator/property-tax-calculator/)\nProperty Tax Calculator. To calculate your property taxes, start by typing the county and state where the property is located and then enter the home value.\n\n6. [Calculate Your Community's Effective Property Tax Rate](https://civicfed.org/civic-federation/blog/calculate-your-communitys-effective-property-tax-rate)\nThis blog post shows how to calculate your municipality's 2014 effective tax rate. How do I calculate my effective property tax rate? To find ...\n\n7. [How to Calculate Your Tax Bill](https://comptroller.tn.gov/office-functions/pa/property-taxes/how-to-figure-your-tax-bill.html)\nTo figure out the tax, simply divide the ASSESSED VALUE ($100,000) by 100, then multiply by the TAX RATE ($2.50). $100,000/100 = 1,000 x $2.50 = $2,500.00. View ...\n\n8. [How Your Property Tax is Calculated](https://www.youtube.com/watch?v=nrWry5i3TBU)\nWe take the total cost of services and divide it by the total property value. This tax rate is applied to all the houses to get enough money.\n\n9. [What is the tax rate for property taxes, and when do I have to ...](https://tax.illinois.gov/questionsandanswers/answer.318.html)\nYour tax bill is based on two factors, the equalized assessed value (EAV) of your property, and the amount of money your local taxing districts need to operate ...\n\n10. [Calculating an Estimated Residential Property Tax Bill](https://oharenoise.org/sitemedia/documents/about-us/news/2016/CookCoAssessorDocs/HowaTaxBillisCalculatedJuly2016REVISED.pdf)\nBy law, the First-Installment Property Tax Bill is exactly 55% percent of the previous year's total tax amount. The Second-Installment Property Tax Bill is ...",
+            "answer": " $234.00"
+        },
+        "success": "Success"
+    }
+]

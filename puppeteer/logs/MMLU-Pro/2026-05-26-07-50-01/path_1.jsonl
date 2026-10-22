@@ -1,0 +1,62 @@
+[
+    {
+        "agent": "ArxivAgent",
+        "action": {
+            "action": "search_arxiv",
+            "parameter": "ethics moral impulse"
+        },
+        "cost": 25424,
+        "tokens": 1589,
+        "model_size": 8,
+        "result": {
+            "step_data": "[{'title': 'A Hippocratic Oath for mathematicians? Mapping the landscape of ethics in mathematics', 'authors': 'Dennis Müller, Maurice Chiodo, James Franklin', 'summary': 'While the consequences of mathematically-based software, algorithms and strategies have become ever wider and better appreciated, ethical reflection on mathematics has remained primitive. We review the somewhat disconnected suggestions of commentators in recent decades with a view to piecing together a coherent approach to ethics in mathematics. Calls for a Hippocratic Oath for mathematicians are examined and it is concluded that while lessons can be learned from the medical profession, the relation of mathematicians to those affected by their work is significantly different. There is something to be learned also from the codes of conduct of cognate but professionalised quantitative disciplines such as engineering and accountancy, as well as from legal principles bearing on professional work. We conclude with recommendations that professional societies in mathematics should sponsor an (international) code of ethics, institutional mission statements for mathematicians and syllabuses for incorporation into mathematics degrees.', 'pdf_url': 'https://arxiv.org/pdf/2112.07025v1'}, {'title': 'Beyond Fairness: Alternative Moral Dimensions for Assessing Algorithms and Designing Systems', 'authors': 'Kimi Wenzel, Geoff Kaufman, Laura Dabbish', 'summary': 'The ethics of artificial intelligence (AI) systems has risen as an imminent concern across scholarly communities. This concern has propagated a great interest in algorithmic fairness. Large research agendas are now devoted to increasing algorithmic fairness, assessing algorithmic fairness, and understanding human perceptions of fairness. We argue that there is an overreliance on fairness as a single dimension of morality, which comes at the expense of other important human values. Drawing from moral psychology, we present five moral dimensions that go beyond fairness, and suggest three ways these alternative dimensions may contribute to ethical AI development.', 'pdf_url': 'https://arxiv.org/pdf/2312.12559v1'}, {'title': 'Beyond principlism: Practical strategies for ethical AI use in research practices', 'authors': 'Zhicheng Lin', 'summary': 'The rapid adoption of generative artificial intelligence (AI) in scientific research, particularly large language models (LLMs), has outpaced the development of ethical guidelines, leading to a \"Triple-Too\" problem: too many high-level ethical initiatives, too abstract principles lacking contextual and practical relevance, and too much focus on restrictions and risks over benefits and utilities. Existing approaches--principlism (reliance on abstract ethical principles), formalism (rigid application of rules), and technological solutionism (overemphasis on technological fixes)--offer little practical guidance for addressing ethical challenges of AI in scientific research practices. To bridge the gap between abstract principles and day-to-day research practices, a user-centered, realism-inspired approach is proposed here. It outlines five specific goals for ethical AI use: 1) understanding model training and output, including bias mitigation strategies; 2) respecting privacy, confidentiality, and copyright; 3) avoiding plagiarism and policy violations; 4) applying AI beneficially compared to alternatives; and 5) using AI transparently and reproducibly. Each goal is accompanied by actionable strategies and realistic cases of misuse and corrective measures. I argue that ethical AI application requires evaluating its utility against existing alternatives rather than isolated performance metrics. Additionally, I propose documentation guidelines to enhance transparency and reproducibility in AI-assisted research. Moving forward, we need targeted professional development, training programs, and balanced enforcement mechanisms to promote responsible AI use while fostering innovation. By refining these ethical guidelines and adapting them to emerging AI capabilities, we can accelerate scientific progress without compromising research integrity.', 'pdf_url': 'https://arxiv.org/pdf/2401.15284v6'}, {'title': 'The Ethics of Biosurveillance', 'authors': 'S. K. Devitt, P. W. J. Baxter, G. Hamilton', 'summary': 'Governments must keep agricultural systems free of pests that threaten agricultural production and international trade. Biosecurity surveillance already makes use of a wide range of technologies, such as insect traps and lures, geographic information systems, and diagnostic biochemical tests. The rise of cheap and usable surveillance technologies such as remotely piloted aircraft systems (RPAS) presents value conflicts not addressed in international biosurveillance guidelines. The costs of keeping agriculture pest-free include privacy violations and reduced autonomy for farmers. We argue that physical and digital privacy in the age of ubiquitous aerial and ground sur",
+            "answer": "H"
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "SummarizerAgent_llama31_8b",
+        "action": {
+            "action": "summarize",
+            "parameter": ""
+        },
+        "cost": 25392,
+        "tokens": 1587,
+        "model_size": 8,
+        "result": {
+            "step_data": "(\"Summary of Previous Results:\\nThe previous reasoning involved identifying a moral theory that locates morality beyond the sphere of rationality in an emotional 'moral impulse' towards others. The characteristics of each listed moral theory were considered, and the Ethics of care was identified as the most closely related moral theory.\\n\\nIntermediate Conclusion:\\nThe Ethics of care prioritizes empathy and care for others, which aligns with the emotional 'moral impulse' towards others. This suggests that the Ethics of care is a suitable moral theory for addressing the question.\\n\\nSummary of Reasoning Paths:\\nThe reasoning paths involved:\\n\\n1. Identifying the key characteristic of the desired moral theory (emotional 'moral impulse' towards others).\\n2. Considering the characteristics of each listed moral theory.\\n3. Eliminating moral theories that do not match the key characteristic.\\n4. Identifying the Ethics of care as the most closely related moral theory.\\n\\nREASONING RESULT: The Ethics of care is the moral theory that locates morality beyond the sphere of rationality in an emotional 'moral impulse' towards others.\\n\\nFINAL ANSWER: H\")",
+            "answer": " H\")"
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "FileAgent",
+        "action": {
+            "action": "read_file",
+            "parameter": "business_ethics.txt"
+        },
+        "cost": 3920,
+        "tokens": 245,
+        "model_size": 8,
+        "result": {
+            "step_data": "File Not Exists",
+            "answer": " H\")"
+        },
+        "success": "Failure"
+    },
+    {
+        "agent": "ReasoningAgent_llama31_8b",
+        "action": {
+            "action": "reasoning",
+            "parameter": ""
+        },
+        "cost": 30032,
+        "tokens": 1877,
+        "model_size": 8,
+        "result": {
+            "step_data": "To continue the reasoning, I will follow the same path as before.\n\nThe previous reasoning involved identifying a moral theory that locates morality beyond the sphere of rationality in an emotional 'moral impulse' towards others. The characteristics of each listed moral theory were considered, and the Ethics of care was identified as the most closely related moral theory.\n\nIntermediate Conclusion:\nThe Ethics of care prioritizes empathy and care for others, which aligns with the emotional 'moral impulse' towards others. This suggests that the Ethics of care is a suitable moral theory for addressing the question.\n\nHowever, upon further consideration, I realize that the Ethics of care is not the only moral theory that prioritizes empathy and care for others. Other moral theories, such as Virtue ethics, also emphasize the importance of empathy and care in moral decision-making.\n\nTo further narrow down the options, I will consider the characteristics of Virtue ethics. Virtue ethics emphasizes the development of virtues, such as compassion and empathy, which are essential for moral decision-making. This aligns with the emotional 'moral impulse' towards others.\n\nHowever, Virtue ethics is not the only moral theory that emphasizes the development of virtues. Other moral theories, such as Postmodern ethics, also emphasize the importance of virtues in moral decision-making.\n\nTo further narrow down the options, I will consider the characteristics of Postmodern ethics. Postmodern ethics emphasizes the importance of empathy and care for others, and it also emphasizes the importance of virtues in moral decision-making. However, Postmodern ethics is distinct from Virtue ethics in that it emphasizes the importance of context and particularity in moral decision-making.\n\nConsidering the characteristics of Postmodern ethics, I realize that it is the most closely related moral theory to the emotional 'moral impulse' towards others.\n\nREASONING RESULT: Postmodern ethics is the moral theory that locates morality beyond the sphere of rationality in an emotional 'moral impulse' towards others.\n\nFINAL ANSWER: J",
+            "answer": " J"
+        },
+        "success": "Success"
+    }
+]

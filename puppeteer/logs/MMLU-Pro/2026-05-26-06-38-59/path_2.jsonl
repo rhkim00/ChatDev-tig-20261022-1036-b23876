@@ -1,0 +1,62 @@
+[
+    {
+        "agent": "ArxivAgent",
+        "action": {
+            "action": "search_arxiv",
+            "parameter": "symbolization logic formula"
+        },
+        "cost": 27600,
+        "tokens": 1725,
+        "model_size": 8,
+        "result": {
+            "step_data": "[{'title': 'Propositional computability logic I', 'authors': 'Giorgi Japaridze', 'summary': 'In the same sense as classical logic is a formal theory of truth, the recently initiated approach called computability logic is a formal theory of computability. It understands (interactive) computational problems as games played by a machine against the environment, their computability as existence of a machine that always wins the game, logical operators as operations on computational problems, and validity of a logical formula as being a scheme of \"always computable\" problems. The present contribution gives a detailed exposition of a soundness and completeness proof for an axiomatization of one of the most basic fragments of computability logic. The logical vocabulary of this fragment contains operators for the so called parallel and choice operations, and its atoms represent elementary problems, i.e. predicates in the standard sense. This article is self-contained as it explains all relevant concepts. While not technically necessary, however, familiarity with the foundational paper \"Introduction to computability logic\" [Annals of Pure and Applied Logic 123 (2003), pp.1-99] would greatly help the reader in understanding the philosophy, underlying motivations, potential and utility of computability logic, -- the context that determines the value of the present results. Online introduction to the subject is available at http://www.cis.upenn.edu/~giorgi/cl.html and http://www.csc.villanova.edu/~japaridz/CL/gsoll.html .', 'pdf_url': 'https://arxiv.org/pdf/cs/0404023v2'}, {'title': 'Towards applied theories based on computability logic', 'authors': 'Giorgi Japaridze', 'summary': 'Computability logic (CL) (see http://www.cis.upenn.edu/~giorgi/cl.html) is a recently launched program for redeveloping logic as a formal theory of computability, as opposed to the formal theory of truth that logic has more traditionally been. Formulas in it represent computational problems, \"truth\" means existence of an algorithmic solution, and proofs encode such solutions. Within the line of research devoted to finding axiomatizations for ever more expressive fragments of CL, the present paper introduces a new deductive system CL12 and proves its soundness and completeness with respect to the semantics of CL. Conservatively extending classical predicate calculus and offering considerable additional expressive and deductive power, CL12 presents a reasonable, computationally meaningful, constructive alternative to classical logic as a basis for applied theories. To obtain a model example of such theories, this paper rebuilds the traditional, classical-logic-based Peano arithmetic into a computability-logic-based counterpart. Among the purposes of the present contribution is to provide a starting point for what, as the author wishes to hope, might become a new line of research with a potential of interesting findings -- an exploration of the presumably quite unusual metatheory of CL-based arithmetic and other CL-based applied systems.', 'pdf_url': 'https://arxiv.org/pdf/0805.3521v4'}, {'title': 'A Neutral Temporal Deontic STIT Logic', 'authors': 'Kees van Berkel, Tim Lyon', 'summary': 'In this work we answer a long standing request for temporal embeddings of deontic STIT logics by introducing the multi-agent STIT logic TDS. The logic is based upon atemporal utilitarian STIT logic. Yet, the logic presented here will be neutral: instead of committing ourselves to utilitarian theories, we prove the logic TDS sound and complete with respect to relational frames not employing any utilitarian function. We demonstrate how these neutral frames can be transformed into utilitarian temporal frames, while preserving validity. Last, we discuss problems that arise from employing binary utility functions in a temporal setting.', 'pdf_url': 'https://arxiv.org/pdf/1907.03265v4'}, {'title': 'Modal Extensions of Łukasiewicz Logic for Modeling Coalitional Power', 'authors': 'Tomáš Kroupa, Bruno Teheux', 'summary': 'Modal logics for reasoning about the power of coalitions capture the notion of effectivity functions associated with game forms. The main goal of coalition logics is to provide formal tools for modeling the dynamics of a game frame whose states may correspond to different game forms. The two classes of effectivity functions studied are the families of playable and truly playable effectivity functions, respectively. In this paper we generalize the concept of effectivity function beyond the yes/no truth scale. This enables us to describe the situations in which the coalitions assess their effectivity in degrees, based on functions over the outcomes taking values in a finite Łukasiewicz chain. Then we introduce two modal extensions of Łukasiewicz finite-valued logic together with many-valued neighborhood semantics in order to encode the properties of many-valued effectivity functions associated with game forms. As our main results we prove completeness t",
+            "answer": "C"
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "QuestionAgent_llama31_8b",
+        "action": {
+            "action": "question",
+            "parameter": ""
+        },
+        "cost": 28416,
+        "tokens": 1776,
+        "model_size": 8,
+        "result": {
+            "step_data": "*Your previous reasoning was: The given sentence is \"Turtles live long lives and are happy creatures, unless they are injured.\" We need to find the best symbolization of this sentence using the given formulas of PL.*\n\nTo further analyze this sentence, we need to understand the relationship between the two main clauses: \"Turtles live long lives and are happy creatures\" and \"unless they are injured.\" The word \"unless\" indicates a negation of the second clause, which means that if turtles are injured, they do not live long lives and are not happy creatures.\n\nTherefore, the next sub-question is:\n\nWhat is the logical relationship between the two main clauses in the given sentence?\n\nAnswer: The logical relationship between the two main clauses is a negation of the second clause, which means that if the second clause is true, the first clause is false.\n\nTo represent this relationship using the given formulas, we need to find a formula that captures the idea of \"unless\" or \"if not.\" In propositional logic, this can be represented using the \"⊃\" symbol, which means \"if-then.\"\n\nHowever, we also need to consider the fact that the first clause is a conjunction of two statements: \"live long lives\" and \"are happy creatures.\" This means that we need to find a way to represent the conjunction of these two statements.\n\nTherefore, the next sub-question is:\n\nHow can we represent the conjunction of two statements in propositional logic?\n\nAnswer: We can represent the conjunction of two statements using the \"•\" symbol, which means \"and.\"\n\nNow, let's combine the answers to the two sub-questions to find the best symbolization of the given sentence.\n\nREASONING RESULT: The best symbolization of the given sentence is (L • H) ⊃ I, where L represents \"live long lives,\" H represents \"are happy creatures,\" and I represents \"are injured.\"\n\nFINAL ANSWER: (L • H) ⊃ I.",
+            "answer": " (L • H) ⊃ I."
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "QuestionAgent_llama31_8b",
+        "action": {
+            "action": "question",
+            "parameter": ""
+        },
+        "cost": 43904,
+        "tokens": 2744,
+        "model_size": 8,
+        "result": {
+            "step_data": "*Your previous reasoning was: The best symbolization of the given sentence is (L • H) ⊃ I, where L represents \"live long lives,\" H represents \"are happy creatures,\" and I represents \"are injured.\"*\n\nTo further analyze this symbolization, we need to consider the fact that the original sentence is a conditional statement, where the first clause is a conjunction of two statements. However, the symbolization we obtained is a conditional statement where the antecedent is a conjunction of two statements.\n\nTherefore, the next sub-question is:\n\nIs the symbolization (L • H) ⊃ I a correct representation of the original sentence?\n\nAnswer: Yes, the symbolization (L • H) ⊃ I is a correct representation of the original sentence. The conditional statement (L • H) ⊃ I means that if turtles live long lives and are happy creatures, then they are not injured.\n\nHowever, we also need to consider the fact that the original sentence can be read as \"Turtles live long lives and are happy creatures, unless they are injured.\" This means that the sentence is actually a contrapositive of the symbolization (L • H) ⊃ I.\n\nTherefore, the next sub-question is:\n\nWhat is the contrapositive of the symbolization (L • H) ⊃ I?\n\nAnswer: The contrapositive of the symbolization (L • H) ⊃ I is I ⊃ ¬(L • H), where ¬ represents negation.\n\nNow, let's combine the answers to the two sub-questions to find the best symbolization of the given sentence.\n\nREASONING RESULT: The best symbolization of the given sentence is I ⊃ ¬(L • H), where L represents \"live long lives,\" H represents \"are happy creatures,\" and I represents \"are injured.\"\n\nFINAL ANSWER: I ⊃ ¬(L • H).",
+            "answer": " I ⊃ ¬(L • H)."
+        },
+        "success": "Success"
+    },
+    {
+        "agent": "PythonAgent_llama31_8b",
+        "action": {
+            "action": "run_python",
+            "parameter": "print('Symbolized sentence: Turtles live long lives • are happy creatures ⊃ they are injured')"
+        },
+        "cost": 19232,
+        "tokens": 1202,
+        "model_size": 8,
+        "result": {
+            "step_data": "Original sentence: Turtles live long lives • are happy creatures ⊃ they are injured\nSymbolized sentence: Turtles live long lives ∧ are happy creatures → they are injured\n",
+            "answer": "C"
+        },
+        "success": "Success"
+    }
+]
